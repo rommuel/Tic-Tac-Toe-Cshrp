@@ -15,3 +15,4 @@ C:\Users\PC\source\repos\Tic-Tac-Toe!\Tic-Tac-Toe!\obj\Debug\net6.0-windows\refi
 C:\Users\PC\source\repos\Tic-Tac-Toe!\Tic-Tac-Toe!\obj\Debug\net6.0-windows\Tic-Tac-Toe!.pdb
 C:\Users\PC\source\repos\Tic-Tac-Toe!\Tic-Tac-Toe!\obj\Debug\net6.0-windows\Tic-Tac-Toe!.genruntimeconfig.cache
 C:\Users\PC\source\repos\Tic-Tac-Toe!\Tic-Tac-Toe!\obj\Debug\net6.0-windows\ref\Tic-Tac-Toe!.dll
+C:\Users\PC\source\repos\Tic-Tac-Toe!\Tic-Tac-Toe!\obj\Debug\net6.0-windows\Tic_Tac_Toe_.Properties.Resources.resources

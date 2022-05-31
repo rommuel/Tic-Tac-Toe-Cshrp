@@ -69,5 +69,35 @@ namespace Tic_Tac_Toe_.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circle {
+            get {
+                object obj = ResourceManager.GetObject("circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circle_clipart_brush_stroke_12 {
+            get {
+                object obj = ResourceManager.GetObject("circle-clipart-brush-stroke-12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap X_Shape_PNG_High_Quality_Image {
+            get {
+                object obj = ResourceManager.GetObject("X-Shape-PNG-High-Quality-Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
