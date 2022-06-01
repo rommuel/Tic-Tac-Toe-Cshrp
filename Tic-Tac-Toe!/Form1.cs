@@ -31,6 +31,7 @@ namespace Tic_Tac_Toe_
             Opicb9.Visible = false;
         }
 
+        
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -88,8 +89,8 @@ namespace Tic_Tac_Toe_
         private void Helpbtn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Two Players: Player 1 marks as X, and Player 2 marks as O.");
-            MessageBox.Show("The Players take turns in filling boxes with their marks (Xs or Os)");
-            MessageBox.Show("The first player to form a straight mark line of three win. Good Luck!");
+            MessageBox.Show("The Players take turns in filling boxes with their marks (Xs or Os). Player X is the first turn.");
+            MessageBox.Show("The first player to form a straight mark line of three wins. Good Luck!");
         }
 
         private void Xpicb1_Click(object sender, EventArgs e)
@@ -140,6 +141,44 @@ namespace Tic_Tac_Toe_
             {
                 // Show X visibly
                 Xpicb4.Visible = true;
+            }
+
+            if (Opicb1.Visible)
+            {
+                // Determine Win for O pattern with O in block 1.
+
+                // O O O
+                // - - -
+                // - - -
+                if (Opicb2.Visible)
+                {
+                    if (Opicb3.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                    }
+                }
+
+
+                // O - -
+                // - O -
+                // - - O
+                if (Opicb5.Visible)
+                {
+                    if (Opicb9.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                    }
+                }
+                // O - -
+                // O - -
+                // O - -
+                if (Opicb4.Visible)
+                {
+                    if (Opicb7.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                    }
+                }
             }
         }
 
@@ -236,6 +275,7 @@ namespace Tic_Tac_Toe_
                 // Show X visibly
                 Xpicb9.Visible = true;
             }
+         
         }
 
         private void Opicb7_Click(object sender, EventArgs e)
