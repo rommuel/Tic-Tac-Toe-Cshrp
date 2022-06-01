@@ -48,7 +48,21 @@ namespace Tic_Tac_Toe_
 
         private void button1_Click(object sender, EventArgs e)
         {
+            b3.Enabled = false;
+            b3.Visible = false;
+            flip = flip + 1;
 
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb3.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb3.Visible = true;
+            }
         }
 
         private void b1_Click(object sender, EventArgs e)
@@ -222,6 +236,11 @@ namespace Tic_Tac_Toe_
                 // Show X visibly
                 Xpicb9.Visible = true;
             }
+        }
+
+        private void Opicb7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
