@@ -6,8 +6,29 @@ namespace Tic_Tac_Toe_
         public Form1()
         {
             InitializeComponent();
+            //Row 1 Buttons
             Xpicb1.Visible = false;
             Opicb1.Visible = false;
+            Xpicb2.Visible = false;
+            Opicb2.Visible = false;
+            Xpicb3.Visible = false;
+            Opicb3.Visible = false;
+
+            //Row 2 Buttons
+            Xpicb4.Visible = false;
+            Opicb4.Visible = false;
+            Xpicb5.Visible = false;
+            Opicb5.Visible = false;
+            Xpicb6.Visible = false;
+            Opicb6.Visible = false;
+
+            //Row 3 Buttons
+            Xpicb7.Visible = false;
+            Opicb7.Visible = false;
+            Xpicb8.Visible = false;
+            Opicb8.Visible = false;
+            Xpicb9.Visible = false;
+            Opicb9.Visible = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -47,7 +68,7 @@ namespace Tic_Tac_Toe_
                 // Show X visibly
                 Xpicb1.Visible = true;
             }
-            
+
         }
 
         private void Helpbtn_Click(object sender, EventArgs e)
@@ -68,6 +89,139 @@ namespace Tic_Tac_Toe_
         {
             // Render O image as invisible initially
             //Opicb1.Visible = false;
+        }
+
+        private void b2_Click(object sender, EventArgs e)
+        {
+            b2.Enabled = false;
+            b2.Visible = false;
+            flip = flip + 1;
+
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb2.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb2.Visible = true;
+            }
+        }
+
+        private void b4_Click(object sender, EventArgs e)
+        {
+            b4.Enabled = false;
+            b4.Visible = false;
+            flip = flip + 1;
+
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb4.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb4.Visible = true;
+            }
+        }
+
+        private void b5_Click(object sender, EventArgs e)
+        {
+            b5.Enabled = false;
+            b5.Visible = false;
+            flip = flip + 1;
+
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb5.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb5.Visible = true;
+            }
+        }
+
+        private void b6_Click(object sender, EventArgs e)
+        {
+            b6.Enabled = false;
+            b6.Visible = false;
+            flip = flip + 1;
+
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb6.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb6.Visible = true;
+            }
+        }
+
+        private void b7_Click(object sender, EventArgs e)
+        {
+            b7.Enabled = false;
+            b7.Visible = false;
+            flip = flip + 1;
+
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb7.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb7.Visible = true;
+            }
+        }
+
+        private void b8_Click(object sender, EventArgs e)
+        {
+            b8.Enabled = false;
+            b8.Visible = false;
+            flip = flip + 1;
+
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb8.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb8.Visible = true;
+            }
+        }
+
+        private void b9_Click(object sender, EventArgs e)
+        {
+            b9.Enabled = false;
+            b9.Visible = false;
+            flip = flip + 1;
+
+            if (flip % 2 == 0)
+            {
+                // Show O visibly
+                Opicb9.Visible = true;
+
+            }
+            else
+            {
+                // Show X visibly
+                Xpicb9.Visible = true;
+            }
         }
     }
 }
