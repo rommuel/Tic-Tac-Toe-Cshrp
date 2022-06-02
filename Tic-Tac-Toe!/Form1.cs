@@ -494,6 +494,48 @@ namespace Tic_Tac_Toe_
                     }
                 }
             }
+            // Win determiner for X (block 5)
+            if (Xpicb5.Visible)
+            {
+                // Determine Win for X pattern with last X in block 5.
+
+                // - - -
+                // O L O
+                // - - -
+                if (Xpicb4.Visible)
+                {
+                    if (Xpicb6.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - O -
+                // - L -
+                // - O -
+                if (Xpicb2.Visible)
+                {
+                    if (Xpicb8.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // O - -
+                // - L -
+                // - - O
+                if (Xpicb1.Visible)
+                {
+                    if (Xpicb9.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
         }
 
         private void b6_Click(object sender, EventArgs e)
@@ -538,6 +580,36 @@ namespace Tic_Tac_Toe_
                     if (Opicb9.Visible)
                     {
                         MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
+            // Win determiner for X (block 6)
+            if (Xpicb6.Visible)
+            {
+                // Determine Win for X pattern with last X in block 6.
+
+                // - - -
+                // O O L
+                // - - -
+                if (Xpicb4.Visible)
+                {
+                    if (Xpicb5.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - - O
+                // - - L
+                // - - O
+                if (Xpicb3.Visible)
+                {
+                    if (Xpicb9.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
                         Application.Restart();
                         Environment.Exit(0);
                     }
@@ -604,6 +676,48 @@ namespace Tic_Tac_Toe_
                     }
                 }
             }
+            // Win determiner for X (block 7)
+            if (Xpicb7.Visible)
+            {
+                // Determine Win for X pattern with last X in block 7.
+
+                // - - -
+                // - - -
+                // L O O
+                if (Xpicb8.Visible)
+                {
+                    if (Xpicb9.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - - O
+                // - O -
+                // L - -
+                if (Xpicb3.Visible)
+                {
+                    if (Xpicb5.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // O - -
+                // O - -
+                // L - -
+                if (Xpicb1.Visible)
+                {
+                    if (Xpicb4.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
         }
 
         private void b8_Click(object sender, EventArgs e)
@@ -648,6 +762,36 @@ namespace Tic_Tac_Toe_
                     if (Opicb9.Visible)
                     {
                         MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
+            // Win determiner for X (block 8)
+            if (Xpicb8.Visible)
+            {
+                // Determine Win for X pattern with last X in block 8.
+
+                // - O -
+                // - O -
+                // - L -
+                if (Xpicb2.Visible)
+                {
+                    if (Xpicb5.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - - -
+                // - - -
+                // O L O
+                if (Xpicb7.Visible)
+                {
+                    if (Xpicb9.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
                         Application.Restart();
                         Environment.Exit(0);
                     }
@@ -709,6 +853,48 @@ namespace Tic_Tac_Toe_
                     if (Opicb5.Visible)
                     {
                         MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
+            // Win determiner for X (block 7)
+            if (Xpicb9.Visible)
+            {
+                // Determine Win for X pattern with last X in block 7.
+
+                // - - -
+                // - - -
+                // O O L
+                if (Xpicb8.Visible)
+                {
+                    if (Xpicb7.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - - O
+                // - - O
+                // - - L
+                if (Xpicb3.Visible)
+                {
+                    if (Xpicb6.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // O - -
+                // - O -
+                // - - L
+                if (Xpicb1.Visible)
+                {
+                    if (Xpicb5.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
                         Application.Restart();
                         Environment.Exit(0);
                     }
