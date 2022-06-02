@@ -90,6 +90,7 @@
             this.Restartbtn.TabIndex = 0;
             this.Restartbtn.Text = "New Game";
             this.Restartbtn.UseVisualStyleBackColor = false;
+            this.Restartbtn.Click += new System.EventHandler(this.Restartbtn_Click);
             // 
             // Helpbtn
             // 

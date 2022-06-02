@@ -282,5 +282,12 @@ namespace Tic_Tac_Toe_
         {
 
         }
+
+        private void Restartbtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Game reset!");
+            Application.Restart();
+            Environment.Exit(0);
+        }
     }
 }
