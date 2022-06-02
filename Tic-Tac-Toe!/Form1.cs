@@ -258,7 +258,7 @@ namespace Tic_Tac_Toe_
             // Win determiner for O (block 4)
             if (Opicb4.Visible)
             {
-                // Determine Win for O pattern with last O in block 2.
+                // Determine Win for O pattern with last O in block 4.
 
                 // O - -
                 // L - -
@@ -304,6 +304,48 @@ namespace Tic_Tac_Toe_
             {
                 // Show X visibly
                 Xpicb5.Visible = true;
+            }
+            // Win determiner for O (block 5)
+            if (Opicb5.Visible)
+            {
+                // Determine Win for O pattern with last O in block 5.
+
+                // - - -
+                // O L O
+                // - - -
+                if (Opicb4.Visible)
+                {
+                    if (Opicb6.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - O -
+                // - L -
+                // - O -
+                if (Opicb2.Visible)
+                {
+                    if (Opicb8.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // O - -
+                // - L -
+                // - - O
+                if (Opicb1.Visible)
+                {
+                    if (Opicb9.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
             }
         }
 
