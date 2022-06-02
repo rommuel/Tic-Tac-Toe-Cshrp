@@ -83,7 +83,49 @@ namespace Tic_Tac_Toe_
                 // Show X visibly
                 Xpicb1.Visible = true;
             }
+            if (Opicb1.Visible)
+            {
+                // Determine Win for O pattern with O in block 1.
 
+                // L O O
+                // - - -
+                // - - -
+                if (Opicb2.Visible)
+                {
+                    if (Opicb3.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+
+
+                // L - -
+                // - O -
+                // - - O
+                if (Opicb5.Visible)
+                {
+                    if (Opicb9.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // L - -
+                // O - -
+                // O - -
+                if (Opicb4.Visible)
+                {
+                    if (Opicb7.Visible)
+                    {
+                        MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
         }
 
         private void Helpbtn_Click(object sender, EventArgs e)
@@ -142,12 +184,11 @@ namespace Tic_Tac_Toe_
                 // Show X visibly
                 Xpicb4.Visible = true;
             }
-
             if (Opicb1.Visible)
             {
                 // Determine Win for O pattern with O in block 1.
 
-                // O O O
+                // L O O
                 // - - -
                 // - - -
                 if (Opicb2.Visible)
@@ -159,7 +200,7 @@ namespace Tic_Tac_Toe_
                 }
 
 
-                // O - -
+                // L - -
                 // - O -
                 // - - O
                 if (Opicb5.Visible)
@@ -169,7 +210,7 @@ namespace Tic_Tac_Toe_
                         MessageBox.Show("Player O wins!");
                     }
                 }
-                // O - -
+                // L - -
                 // O - -
                 // O - -
                 if (Opicb4.Visible)
@@ -288,6 +329,11 @@ namespace Tic_Tac_Toe_
             MessageBox.Show("Game reset!");
             Application.Restart();
             Environment.Exit(0);
+        }
+
+        private void Xpicb2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
