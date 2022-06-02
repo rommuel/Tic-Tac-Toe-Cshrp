@@ -928,5 +928,20 @@ namespace Tic_Tac_Toe_
         {
 
         }
+
+        private void Opicb3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Xpicb3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Opicb9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

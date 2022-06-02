@@ -83,10 +83,10 @@
             // Restartbtn
             // 
             this.Restartbtn.BackColor = System.Drawing.Color.SandyBrown;
-            this.Restartbtn.Font = new System.Drawing.Font("Vogue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Restartbtn.Location = new System.Drawing.Point(12, 12);
+            this.Restartbtn.Font = new System.Drawing.Font("ISOCTEUR", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Restartbtn.Location = new System.Drawing.Point(12, 11);
             this.Restartbtn.Name = "Restartbtn";
-            this.Restartbtn.Size = new System.Drawing.Size(86, 56);
+            this.Restartbtn.Size = new System.Drawing.Size(171, 55);
             this.Restartbtn.TabIndex = 0;
             this.Restartbtn.Text = "New Game";
             this.Restartbtn.UseVisualStyleBackColor = false;
@@ -95,10 +95,10 @@
             // Helpbtn
             // 
             this.Helpbtn.BackColor = System.Drawing.Color.SandyBrown;
-            this.Helpbtn.Font = new System.Drawing.Font("Vogue", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Helpbtn.Location = new System.Drawing.Point(380, 11);
+            this.Helpbtn.Font = new System.Drawing.Font("ISOCTEUR", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Helpbtn.Location = new System.Drawing.Point(294, 12);
             this.Helpbtn.Name = "Helpbtn";
-            this.Helpbtn.Size = new System.Drawing.Size(86, 56);
+            this.Helpbtn.Size = new System.Drawing.Size(173, 56);
             this.Helpbtn.TabIndex = 2;
             this.Helpbtn.Text = "Help?";
             this.Helpbtn.UseVisualStyleBackColor = false;
@@ -221,7 +221,7 @@
             // 
             this.Xpicb1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb1.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb1.Location = new System.Drawing.Point(65, 173);
+            this.Xpicb1.Location = new System.Drawing.Point(65, 152);
             this.Xpicb1.Name = "Xpicb1";
             this.Xpicb1.Size = new System.Drawing.Size(88, 89);
             this.Xpicb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -232,7 +232,7 @@
             // Opicb1
             // 
             this.Opicb1.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb1.Location = new System.Drawing.Point(65, 173);
+            this.Opicb1.Location = new System.Drawing.Point(65, 152);
             this.Opicb1.Name = "Opicb1";
             this.Opicb1.Size = new System.Drawing.Size(88, 89);
             this.Opicb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -244,7 +244,7 @@
             // 
             this.Xpicb2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb2.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb2.Location = new System.Drawing.Point(193, 173);
+            this.Xpicb2.Location = new System.Drawing.Point(193, 152);
             this.Xpicb2.Name = "Xpicb2";
             this.Xpicb2.Size = new System.Drawing.Size(88, 89);
             this.Xpicb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -255,7 +255,7 @@
             // Opicb2
             // 
             this.Opicb2.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb2.Location = new System.Drawing.Point(193, 173);
+            this.Opicb2.Location = new System.Drawing.Point(193, 152);
             this.Opicb2.Name = "Opicb2";
             this.Opicb2.Size = new System.Drawing.Size(88, 89);
             this.Opicb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -266,28 +266,30 @@
             // 
             this.Xpicb3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb3.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb3.Location = new System.Drawing.Point(317, 173);
+            this.Xpicb3.Location = new System.Drawing.Point(317, 152);
             this.Xpicb3.Name = "Xpicb3";
             this.Xpicb3.Size = new System.Drawing.Size(88, 89);
             this.Xpicb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Xpicb3.TabIndex = 18;
             this.Xpicb3.TabStop = false;
+            this.Xpicb3.Click += new System.EventHandler(this.Xpicb3_Click);
             // 
             // Opicb3
             // 
             this.Opicb3.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb3.Location = new System.Drawing.Point(317, 173);
+            this.Opicb3.Location = new System.Drawing.Point(317, 152);
             this.Opicb3.Name = "Opicb3";
             this.Opicb3.Size = new System.Drawing.Size(88, 89);
             this.Opicb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Opicb3.TabIndex = 19;
             this.Opicb3.TabStop = false;
+            this.Opicb3.Click += new System.EventHandler(this.Opicb3_Click);
             // 
             // Xpicb4
             // 
             this.Xpicb4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb4.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb4.Location = new System.Drawing.Point(65, 298);
+            this.Xpicb4.Location = new System.Drawing.Point(65, 278);
             this.Xpicb4.Name = "Xpicb4";
             this.Xpicb4.Size = new System.Drawing.Size(88, 89);
             this.Xpicb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -297,7 +299,7 @@
             // Opicb4
             // 
             this.Opicb4.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb4.Location = new System.Drawing.Point(65, 298);
+            this.Opicb4.Location = new System.Drawing.Point(65, 278);
             this.Opicb4.Name = "Opicb4";
             this.Opicb4.Size = new System.Drawing.Size(88, 89);
             this.Opicb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -308,7 +310,7 @@
             // 
             this.Xpicb5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb5.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb5.Location = new System.Drawing.Point(193, 298);
+            this.Xpicb5.Location = new System.Drawing.Point(193, 278);
             this.Xpicb5.Name = "Xpicb5";
             this.Xpicb5.Size = new System.Drawing.Size(88, 89);
             this.Xpicb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -318,7 +320,7 @@
             // Opicb5
             // 
             this.Opicb5.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb5.Location = new System.Drawing.Point(193, 298);
+            this.Opicb5.Location = new System.Drawing.Point(193, 278);
             this.Opicb5.Name = "Opicb5";
             this.Opicb5.Size = new System.Drawing.Size(88, 89);
             this.Opicb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -329,7 +331,7 @@
             // 
             this.Xpicb6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb6.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb6.Location = new System.Drawing.Point(317, 298);
+            this.Xpicb6.Location = new System.Drawing.Point(317, 278);
             this.Xpicb6.Name = "Xpicb6";
             this.Xpicb6.Size = new System.Drawing.Size(88, 89);
             this.Xpicb6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -339,7 +341,7 @@
             // Opicb6
             // 
             this.Opicb6.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb6.Location = new System.Drawing.Point(317, 298);
+            this.Opicb6.Location = new System.Drawing.Point(317, 278);
             this.Opicb6.Name = "Opicb6";
             this.Opicb6.Size = new System.Drawing.Size(88, 89);
             this.Opicb6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -350,7 +352,7 @@
             // 
             this.Xpicb7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb7.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb7.Location = new System.Drawing.Point(65, 422);
+            this.Xpicb7.Location = new System.Drawing.Point(65, 402);
             this.Xpicb7.Name = "Xpicb7";
             this.Xpicb7.Size = new System.Drawing.Size(88, 89);
             this.Xpicb7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -361,7 +363,7 @@
             // Opicb7
             // 
             this.Opicb7.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb7.Location = new System.Drawing.Point(65, 422);
+            this.Opicb7.Location = new System.Drawing.Point(65, 402);
             this.Opicb7.Name = "Opicb7";
             this.Opicb7.Size = new System.Drawing.Size(88, 89);
             this.Opicb7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -373,7 +375,7 @@
             // 
             this.Xpicb8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb8.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb8.Location = new System.Drawing.Point(193, 422);
+            this.Xpicb8.Location = new System.Drawing.Point(193, 402);
             this.Xpicb8.Name = "Xpicb8";
             this.Xpicb8.Size = new System.Drawing.Size(88, 89);
             this.Xpicb8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -383,7 +385,7 @@
             // Opicb8
             // 
             this.Opicb8.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb8.Location = new System.Drawing.Point(193, 422);
+            this.Opicb8.Location = new System.Drawing.Point(193, 402);
             this.Opicb8.Name = "Opicb8";
             this.Opicb8.Size = new System.Drawing.Size(88, 89);
             this.Opicb8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -394,7 +396,7 @@
             // 
             this.Xpicb9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb9.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb9.Location = new System.Drawing.Point(317, 422);
+            this.Xpicb9.Location = new System.Drawing.Point(317, 402);
             this.Xpicb9.Name = "Xpicb9";
             this.Xpicb9.Size = new System.Drawing.Size(88, 89);
             this.Xpicb9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -405,12 +407,13 @@
             // Opicb9
             // 
             this.Opicb9.Image = global::Tic_Tac_Toe_.Properties.Resources.circle;
-            this.Opicb9.Location = new System.Drawing.Point(317, 422);
+            this.Opicb9.Location = new System.Drawing.Point(317, 402);
             this.Opicb9.Name = "Opicb9";
             this.Opicb9.Size = new System.Drawing.Size(88, 89);
             this.Opicb9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Opicb9.TabIndex = 31;
             this.Opicb9.TabStop = false;
+            this.Opicb9.Click += new System.EventHandler(this.Opicb9_Click);
             // 
             // Form1
             // 
