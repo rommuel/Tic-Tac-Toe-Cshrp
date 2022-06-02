@@ -287,7 +287,7 @@
             // 
             this.Xpicb4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb4.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb4.Location = new System.Drawing.Point(65, 288);
+            this.Xpicb4.Location = new System.Drawing.Point(65, 298);
             this.Xpicb4.Name = "Xpicb4";
             this.Xpicb4.Size = new System.Drawing.Size(88, 89);
             this.Xpicb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -373,7 +373,7 @@
             // 
             this.Xpicb8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb8.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb8.Location = new System.Drawing.Point(193, 434);
+            this.Xpicb8.Location = new System.Drawing.Point(193, 422);
             this.Xpicb8.Name = "Xpicb8";
             this.Xpicb8.Size = new System.Drawing.Size(88, 89);
             this.Xpicb8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -394,12 +394,13 @@
             // 
             this.Xpicb9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Xpicb9.Image = global::Tic_Tac_Toe_.Properties.Resources.X_Shape_PNG_High_Quality_Image;
-            this.Xpicb9.Location = new System.Drawing.Point(317, 443);
+            this.Xpicb9.Location = new System.Drawing.Point(317, 422);
             this.Xpicb9.Name = "Xpicb9";
             this.Xpicb9.Size = new System.Drawing.Size(88, 89);
             this.Xpicb9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Xpicb9.TabIndex = 30;
             this.Xpicb9.TabStop = false;
+            this.Xpicb9.Click += new System.EventHandler(this.Xpicb9_Click);
             // 
             // Opicb9
             // 

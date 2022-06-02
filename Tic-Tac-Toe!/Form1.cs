@@ -49,6 +49,9 @@ namespace Tic_Tac_Toe_
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+        //This is the code for b3:
+
             b3.Enabled = false;
             b3.Visible = false;
             flip = flip + 1;
@@ -101,6 +104,48 @@ namespace Tic_Tac_Toe_
                     if (Opicb9.Visible)
                     {
                         MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
+            // Win determiner for X (block 3)
+            if (Xpicb3.Visible)
+            {
+                // Determine Win for X pattern with last X in block 3.
+
+                // O O L
+                // - - -
+                // - - -
+                if (Xpicb2.Visible)
+                {
+                    if (Xpicb1.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - - L
+                // - O -
+                // O - -
+                if (Xpicb5.Visible)
+                {
+                    if (Xpicb7.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - - L
+                // - - O
+                // - - O
+                if (Xpicb6.Visible)
+                {
+                    if (Xpicb9.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
                         Application.Restart();
                         Environment.Exit(0);
                     }
@@ -162,6 +207,48 @@ namespace Tic_Tac_Toe_
                     if (Opicb7.Visible)
                     {
                         MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
+            // Win determiner for X (block 1)
+            if (Xpicb1.Visible)
+            {
+                // Determine Win for X pattern with last X in block 1.
+
+                // L O O
+                // - - -
+                // - - -
+                if (Xpicb2.Visible)
+                {
+                    if (Xpicb3.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // L - -
+                // - O -
+                // - - O
+                if (Xpicb5.Visible)
+                {
+                    if (Xpicb9.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // L - -
+                // O - -
+                // O - -
+                if (Xpicb4.Visible)
+                {
+                    if (Xpicb7.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
                         Application.Restart();
                         Environment.Exit(0);
                     }
@@ -236,6 +323,36 @@ namespace Tic_Tac_Toe_
                     }
                 }
             }
+            // Win determiner for X (block 2)
+            if (Xpicb2.Visible)
+            {
+                // Determine Win for X pattern with last X in block 2.
+
+                // O L O
+                // - - -
+                // - - -
+                if (Xpicb1.Visible)
+                {
+                    if (Xpicb3.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - L -
+                // - O -
+                // - O -
+                if (Xpicb5.Visible)
+                {
+                    if (Xpicb8.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
         }
 
         private void b4_Click(object sender, EventArgs e)
@@ -280,6 +397,36 @@ namespace Tic_Tac_Toe_
                     if (Opicb6.Visible)
                     {
                         MessageBox.Show("Player O wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+            }
+            // Win determiner for X (block 4)
+            if (Xpicb4.Visible)
+            {
+                // Determine Win for X pattern with last X in block 4.
+
+                // O - -
+                // L - -
+                // O - -
+                if (Xpicb1.Visible)
+                {
+                    if (Xpicb7.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }
+                }
+                // - - -
+                // L O O
+                // - - -
+                if (Xpicb5.Visible)
+                {
+                    if (Xpicb6.Visible)
+                    {
+                        MessageBox.Show("Player X wins!");
                         Application.Restart();
                         Environment.Exit(0);
                     }
@@ -587,6 +734,11 @@ namespace Tic_Tac_Toe_
         }
 
         private void Xpicb7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Xpicb9_Click(object sender, EventArgs e)
         {
 
         }
